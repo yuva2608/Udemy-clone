@@ -1,0 +1,207 @@
+* {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navebar {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    gap: 10px;
+    align-items: center;
+}
+
+.navebars1,
+.navebars1,
+.navebars3 {
+    border-bottom: none;
+}
+
+.navebar__1__tittle {
+    color: violet;
+
+
+}
+
+.navebars2 {
+    display: flex;
+    align-items: center;
+    border: black 1px solid;
+    border-radius: 30px;
+    gap: 10px;
+    flex: 1;
+    min-width: 0;
+    max-width: 600px;
+    padding: 8px 12px;
+}
+
+.navebars2 input {
+    flex: 1;
+    min-width: 0;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.navebars3 {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 2px black solid;
+}
+
+.categories p {
+    background-color: palevioletred;
+    color: black;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 20px;
+
+}
+
+.image {
+    width: 100%;
+    min-width: 0;
+}
+
+.image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.recommended {
+    padding: 10px;
+    flex-wrap: wrap;
+
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 10px;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+.coursecard {
+    flex: 0 0 250px;
+    text-align: center;
+
+}
+
+.coursecard img {
+    display: block;
+    width: 250px;
+    height: 140px;
+    object-fit: cover;
+
+}
+
+.topic {
+    padding: 10px;
+}
+
+.topiccontainer {
+    padding-inline: 10px;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+
+
+}
+
+.topiccontainer p {
+
+    border: grey solid 2px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    text-align: center;
+
+
+}
+
+.popular__container {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: black;
+    border: black dotted 4px;
+}
+
+.coursecard1 {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 10px;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+}
+
+.coursecard {
+    flex: 0 0 250px;
+    text-align: center;
+
+}
+
+.coursecard img {
+    display: block;
+    width: 250px;
+    height: 140px;
+    object-fit: cover;
+
+}
+
+.footer__one {
+    display: flex;
+    margin: 30px;
+    background-color: black;
+    color: white;
+    border: 3px red dotted;
+    padding: 10px;
+}
+
+.footertwo {
+
+    gap: 30px;
+    padding-left: 30px;
+
+
+
+
+
+}
+
+.udemy {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border: 5px red solid;
+    margin: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    align-items: center;
+}
